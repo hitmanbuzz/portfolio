@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Dotfiles",
+    "link": "https://github.com/hitmanbuzz/dotfiles",
+    "tag": "Linux",
+    "description": "My Arch Linux dotfiles configuration"
+  },
+  {
+    "title": "Symlinker",
+    "link": "https://github.com/hitmanbuzz/symlinker",
+    "tag": "Go",
+    "description": "An alternative to GNU stow but minimial and explicit symlinking program"
+  },
+  {
+    "title": "Storage Management",
+    "link": "https://github.com/hitmanbuzz/storage-management",
+    "tag": "Go",
+    "description": "A backend entirely focus file storage management"
+  },
+  {
+    "title": "Tiny-C",
+    "link": "https://github.com/hitmanbuzz/tiny-c",
+    "tag": "Rust",
+    "description": "A Compiler for C like language"
+  }
+]
