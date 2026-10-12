@@ -16,7 +16,7 @@ body {
   color: var(--text);
   font-family: var(--sans);
   font-size: 16px;
-  line-height: 1.65;
+  line-height: 1.5;
   -webkit-font-smoothing: antialiased;
   padding: clamp(2rem, 6vw, 4rem) clamp(1.1rem, 4vw, 2rem) 5rem;
 }
@@ -51,7 +51,6 @@ section { margin-top: 3.25rem; }
 
 h2 {
   font-family: var(--mono);
-  font-size: 1rem;
   font-weight: 600;
   letter-spacing: 0.03em;
   color: #ffffff;
@@ -64,6 +63,14 @@ p { margin: 0 0 1rem; }
 p:last-child { margin-bottom: 0; }
 
 ul { list-style: none; margin: 0; padding: 0; }
+
+.location-label {
+  font-family: var(--mono);
+  font-size: 0.9rem;
+  color: white;
+  width: 5.5rem;
+  font-weight: bold;
+}
 
 /* ---------- list entries (education + projects) ---------- */
 .entry + .entry { margin-top: 1.35rem; }
@@ -99,7 +106,10 @@ a.entry-title { color: var(--accent); }
 }
 
 .socials li + li { margin-top: 0.4rem; }
-.social-label { color: var(--muted); }
+.social-label {
+  color: white;
+  font-weight: bold;
+ }
 
 /* ---------- footer ---------- */
 footer {
